@@ -1,5 +1,8 @@
 package com.ransibi;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * @description: ${description}
  * @author: rsb
@@ -7,8 +10,9 @@ package com.ransibi;
  * @description: ${description}
  * @Version: 1.0.0
  */
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(Main.class, args);
     }
 }
